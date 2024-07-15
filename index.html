@@ -4,323 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        
-        #box1{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+        *{
+            font-size: 35px;
         }
-        #box1:hover{
-            transform: translateX(-80px);
+        body{
+            margin-left: 40px;
+        }
+        div{
+            border: 2px solid black;
+            padding: 50px 60px 30px 50px;
+            width: 13vw;
+            height: 200px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            font-weight: 800;
+            text-align: center;
+            color: rgb(11, 11, 11);
+            background-color: aqua;
+            border: 4px ridge red;
+      
+        }
+        #font{
+            text-align: center;
+            background-color: rgb(25, 180, 247);
+            color: rgb(241, 248, 245);
+            font-size: 50px;
+            margin-left: -30px;
+        }
+        #box1{
+            box-shadow: 4px 4px 5px 3px black;
         }
         #box2{
-            display: inline-block;  
-            position: relative;
-            top: -10px; 
-            height: 180px;
-            width: 180px; 
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box2:hover{
-            transform: translateX(80px);
+            box-shadow: 4px 4px 1px 3px orange;
         }
         #box3{
-            display: inline-block;  
-            position: relative;
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box3:hover{
-            transform: translateY(-80px);
+            box-shadow: 4px 4px 1px 3px orangered;
         }
         #box4{
-            display: inline-block;  
-            position: relative;
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+            box-shadow: 4px 4px 1px 3px green;
         }
-        #box4:hover{
-            transform: translateY(80px);
+        #box5{
+            box-shadow: 4px 4px 1px 3px yellow;
+        }
+        #box6{
+            box-shadow: 4px 4px 1px   3px blueviolet;
+        }
+        #box7{
+            box-shadow: 4px 4px 1px 3px skyblue;
+        }
+        #box8{
+            box-shadow: 4px 4px 1px 3px rgb(36, 231, 88);
+        }
+        #box9{
+            box-shadow: 4px 4px 1px 3px goldenrod;
+        }
+        #box10{
+            box-shadow: 4px 4px 1px 3px rgb(128, 0, 92);
         }
         #box11{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box11:hover{
-             
-            transform: scale(2,3);
+            box-shadow: 4px 4px 1px 3px gold;
         }
         #box12{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box12:hover{
-             
-            transform: scaleY(3);
+            box-shadow: 4px 4px 1px 3px maroon;
         }
         #box13{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+            box-shadow: 4px 4px 1px 3px crimson;
+        }
+        #box14{
+            box-shadow: 4px 4px 1px 3px coral;
+        }
+        #box15{
+            box-shadow: 4px 4px 1px 3px chocolate;
+        }
+        #box16{
+            box-shadow: 4px 4px 1px 3px cadetblue;
+        }
+        #box17{
+            box-shadow: 4px 4px 1px 3px tan;
+        }
+        #box18{
+            box-shadow: 4px 4px 1px 3px yellowgreen;
+        }
+        #box19{
+            box-shadow: 4px 4px 1px 3px tomato;
+        }
+        #box20{
+            box-shadow: 4px 4px 1px 3px teal;
+        }
+        #box1:hover{
+                transform: translateX(120px);
+                font-size: 30px;
+
+        }
+        #box2:hover{
+            transform: translateY(120px);
+            font-size: 30px;
+        }
+        #box3:hover{
+            transform: translate(200px,200px);
+            font-size: 30px;
+        }
+        #box4:hover{
+            transform: translate(-100px);
+            font-size: 30px;
+        }
+        #box5:hover{
+            transform: scaleX(1.5);
+            font-size: 30px;
+        }
+        #box6:hover{
+            transform: scaleY(1.5);
+            font-size: 30px;
+        }
+        #box7:hover{
+            transform: scale(1.5);
+            font-size: 20px;
+        }
+        #box8:hover{
+            transform: scale(-0.5);
+            font-size: 30px;
+        }
+        #box9:hover{
+            transform: rotateX(110deg);
+            font-size: 30px;
+        }
+        #box10:hover{
+            transform: rotateY(110deg);
+            font-size: 30px;
+        }
+        #box11:hover{
+            transform: rotate(110deg);
+            font-size: 30px;
+        }
+        #box12:hover{
+            transform: rotate(-110deg);
+            font-size: 30px;
         }
         #box13:hover{
-             
-            transform: scaleX(3);
+            transform: skewX(20deg);
+            font-size: 30px;
         }
-        #box21{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+        #box14:hover{
+            transform: skewY(40deg);
+            font-size: 30px;
         }
-        #box21:hover{
-             
-            transform: scaleY(3);
+        #box15:hover{
+            transform: skew(60deg);
+            font-size: 30px;
         }
-        #box22{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+        #box16:hover{
+            transform: skew(-60deg);
+            font-size: 30px;
         }
-        
-        #box21{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+        #box17:hover{
+            transform: translate(100px,100px);
+            font-size: 30px;
         }
-        #box21:hover{
-             
-            transform :rotate( 50deg);
+        #box18:hover{
+         transform: rotate(90deg);
+            font-size: 30px;
         }
-        #box211{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
+        #box19:hover{
+        transform: scale(1.5);
+            font-size: 30px;
         }
-        #box211:hover{
-             
-            transform :rotate( -50deg);
+        #box20:hover{
+          transform: skew(50deg);
+            font-size: 30px;
         }
-        #box22{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box22:hover{
-             
-            transform:rotateX(50deg);
-        }
-        #box23{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box23:hover{
-             
-            transform:rotateY(50deg);
-        }
-        #box31{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box31:hover{
-             
-            transform:skew(380deg)
-        }
-        #box32{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box32:hover{
-             
-            transform:skewX(220deg)
-        }
-        #box33{
-            display: inline-block;  
-            position: relative;  
-            top: -10px; 
-            height: 180px;
-            width: 180px;  
-            padding: 50px;
-            margin: 30px;  
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 2px 2px 50px red inset,-2px -2px 10px red inset;
-             
-        }
-        #box33:hover{
-             
-            transform:skewY(380deg)
-        }
+
     </style>
 </head>
 <body>
-    <h1>Transform :-</h1><fieldset>
-    <div id="box1">
- <center>Transform x-axis <center> (Left side)</center></center>
-    </div>
-    <div id="box2">
-        <center>Transform x-axis<center> (Right side)</center></center>
-    </div>
-    <div id="box3">
-        <center>Transform y-axis<center> (Top side)</center></center>
-    </div>
-    <div id="box4">
-        <center>Transform y-axis<center> (buttom side)</center></center>
-    </div></fieldset> <br>
-    <h1>Scale Property :- </h1><fieldset>
-    <div id="box11">
-        <center> Transform scale <center> (Vertical &Horizintal) </center></center>
-           </div>
-           <div id="box12">
-            <center> Transform scaleY<center> (Vertical)</center></center>
-               </div>
-               <div id="box13">
-                <center>Transform scaleX <center> (Horizintal)</center></center>
-                   </div></fieldset><br>
-                   <h1>Rotate Property :-</h1><fieldset>
-                   <div id="box21">
-                    <center>Transform Rotate <center> (Clock wise Direction)</center></center>
-                       </div>
-                       <div id="box211">
-                        <center>Transform x-axis <center> (Anti-Clock wise)</center></center>
-                           </div>
-                       <div id="box22">
-                        <center>Transform  Rotate<center> (X-Deg)</center></center>
-                           </div>
-                           <div id="box23">
-                            <center>Transform Rotate <center> (Y-Deg)</center></center>
-                               </div></fieldset><br>
-                               <h1>Skew Property :- </h1><fieldset>
-                               <div id="box31">
-                                <center>Transform Skew <center> (X-deg , Ydeg)</center></center>
-                                   </div>
-                                   <div id="box32">
-                                    <center>Transform Skew <center> (X-Deg)</center></center>
-                                       </div>
-                                       <div id="box33">
-                                        <center>Transform Skew <center> (Y-Deg)</center></center>
-                                           </div>
-                                        </fieldset>
-
+    <br>
+    <h1 id="font">TRANSISTIONS</h1>
+    <h2 id="font" style="background-color: black;">TRANSFORM</h2>
+  <div id="box1">translate X</div>
+  <div id="box2">translate Y</div>
+  <div id="box3">translate X&Y</div>
+  <div id="box4">translate X(-)</div>
+  <h2 id="font" style="background-color: black;">SCALE</h2>
+  <div id="box5">scale X</div>
+  <div id="box6">scale Y</div>
+  <div id="box7">scale XY</div>
+  <div id="box8">scale XY(-)</div>
+  <h2 id="font" style="background-color: black;">ROTATE</h2>
+  <div id="box9">rotate X</div>
+  <div id="box10">rotate Y</div>
+  <div id="box11">rotate XY</div>
+  <div id="box12">rotate XY(-)</div>
+  <h2 id="font" style="background-color: black;">SKEW</h2>
+  <div id="box13">skew X</div>
+  <div id="box14">skew Y</div>
+  <div id="box15">skew XY</div>
+  <div id="box16">skew XY(-)</div>
+  <h2 id="font" style="background-color: black;">TRANSFORM ALL PROPERTIES</h2>
+  <div id="box17">trasnform</div>
+  <div id="box18">Rotate</div>
+  <div id="box19">scale</div>
+  <div id="box20">skew</div>
 </body>
 </html>
